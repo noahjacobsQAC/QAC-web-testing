@@ -1,0 +1,2016 @@
+<style type="text/css">html.hs-messages-widget-open.hs-messages-mobile,html.hs-messages-widget-open.hs-messages-mobile body{overflow:hidden!important;position:relative!important}html.hs-messages-widget-open.hs-messages-mobile body{height:100%!important;margin:0!important}#hubspot-messages-iframe-container{display:initial!important;z-index:2147483647;position:fixed!important;bottom:0!important}#hubspot-messages-iframe-container.widget-align-left{left:0!important}#hubspot-messages-iframe-container.widget-align-right{right:0!important}#hubspot-messages-iframe-container.internal{z-index:1016}#hubspot-messages-iframe-container.internal iframe{min-width:108px}#hubspot-messages-iframe-container .shadow-container{display:initial!important;z-index:-1;position:absolute;width:0;height:0;bottom:0;content:""}#hubspot-messages-iframe-container .shadow-container.internal{display:none!important}#hubspot-messages-iframe-container .shadow-container.active{width:400px;height:400px}#hubspot-messages-iframe-container iframe{display:initial!important;width:100%!important;height:100%!important;border:none!important;position:absolute!important;bottom:0!important;right:0!important;background:transparent!important}</style>
+
+<a class="skip-to-content" href="#sb-site">Skip to content</a>
+
+
+<noscript><iframe title="Google Tag Manager"
+	src="https://www.googletagmanager.com/ns.html?id=GTM-NTH7JN5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+<div id="preloader" class="preloader" style="opacity: 0.528044;">
+<div class="loading-icon">
+<div class="spinner1"></div>
+</div>
+</div>
+
+<div class="header-bar">
+<div class="container">
+<div class="header-logo">
+<a class="logo" href="https://qaconsultants.com"><img class="logo lazyloaded" src="https://qaconsultants.com/wp-content/uploads/2020/11/QAC_Logo_25.svg" alt="QA Consultants - Home Page" data-ll-status="loaded"><noscript><img class="logo" src="https://qaconsultants.com/wp-content/uploads/2020/11/QAC_Logo_25.svg" alt="QA Consultants - Home Page"></noscript></a> </div>
+<div class="qac-mobile-menu">
+<div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0" id="mega-toggle-block-0"><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+<span class="mega-toggle-animated-box">
+<span class="mega-toggle-animated-inner"></span>
+ </span>
+</button></div></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal" data-event="hover" data-effect="fade" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="950" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-11640" id="mega-menu-item-11640"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Solutions + Services<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9820" id="mega-menu-item-9820"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/test-automation/">Test Automation</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-19408" id="mega-menu-item-19408"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/performance-testing/">Performance Testing</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-21163" id="mega-menu-item-21163"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/integration-testing/">System Integration Testing Service</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9814" id="mega-menu-item-9814"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/security-testing/">Security Testing</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-21165" id="mega-menu-item-21165"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/functional-testing/">Functional Testing Services</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-21164" id="mega-menu-item-21164"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/data-testing/">Data Testing</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-21166" id="mega-menu-item-21166"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/mobile-testing/">Mobile Testing Service</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-14993" id="mega-menu-item-14993"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/specialized-audit/">Audit &amp; Advisory Services</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-20765" id="mega-menu-item-20765"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/emerging-technologies/">Emerging Technologies</a></li><li class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-disable-link mega-menu-item-21214" id="mega-menu-item-21214"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Accessibility<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18678" id="mega-menu-item-18678"><a class="mega-menu-link" href="https://qaconsultants.com/solutions-and-services/accessibility-testing/">Accessibility Testing</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-post mega-menu-item-19009" id="mega-menu-item-19009"><a class="mega-menu-link" href="https://qaconsultants.com/training/accessibility-wcag-training/">Accessibility (WCAG) Training</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18746" id="mega-menu-item-18746"><a class="mega-menu-link" href="https://qaconsultants.com/wcag/">WCAG</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-18741" id="mega-menu-item-18741"><a class="mega-menu-link" href="https://qaconsultants.com/aoda/">AODA</a></li> </ul>
+</li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-15248" id="mega-menu-item-15248"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Industries<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15270" id="mega-menu-item-15270"><a class="mega-menu-link" href="https://qaconsultants.com/industries/automotive/">Automotive</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-19167" id="mega-menu-item-19167"><a class="mega-menu-link" href="https://qaconsultants.com/industries/digital-media/">Digital Media</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15252" id="mega-menu-item-15252"><a class="mega-menu-link" href="https://qaconsultants.com/industries/banking-and-financial/">Banking and Financial</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15250" id="mega-menu-item-15250"><a class="mega-menu-link" href="https://qaconsultants.com/industries/construction-industrial/">Construction and Industrial</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15251" id="mega-menu-item-15251"><a class="mega-menu-link" href="https://qaconsultants.com/industries/media-entertainment/">Media and Entertainment</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15274" id="mega-menu-item-15274"><a class="mega-menu-link" href="https://qaconsultants.com/industries/government/">Government</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15253" id="mega-menu-item-15253"><a class="mega-menu-link" href="https://qaconsultants.com/industries/healthcare/">Healthcare</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15254" id="mega-menu-item-15254"><a class="mega-menu-link" href="https://qaconsultants.com/industries/insurance/">Insurance</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15255" id="mega-menu-item-15255"><a class="mega-menu-link" href="https://qaconsultants.com/industries/retail/">Retail Software Testing</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15273" id="mega-menu-item-15273"><a class="mega-menu-link" href="https://qaconsultants.com/industries/telecommunications/">Telecommunications</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15272" id="mega-menu-item-15272"><a class="mega-menu-link" href="https://qaconsultants.com/industries/energy-and-utilities/">Energy and Utilities</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15275" id="mega-menu-item-15275"><a class="mega-menu-link" href="https://qaconsultants.com/industries/hospitality-tourism/">Hospitality &amp; Tourism</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-10780" id="mega-menu-item-10780"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Client Success<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-20276" id="mega-menu-item-20276"><a class="mega-menu-link" href="https://qaconsultants.com/client-success/">Our Clients</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-14808" id="mega-menu-item-14808"><a class="mega-menu-link" href="https://qaconsultants.com/client-success/case-studies/">Case Studies</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-9742" id="mega-menu-item-9742"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Ideas + Insights<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-19435" id="mega-menu-item-19435"><a class="mega-menu-link" href="https://qaconsultants.com/category/blog/">Blog</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-19437" id="mega-menu-item-19437"><a class="mega-menu-link" href="https://qaconsultants.com/category/white-paper/">White Papers</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-14312" id="mega-menu-item-14312"><a class="mega-menu-link" href="https://qaconsultants.com/ideas-and-insights/testtalks/">Test Talk(s)</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15713" id="mega-menu-item-15713"><a class="mega-menu-link" href="https://qaconsultants.com/ideas-and-insights/webinars/">Webinars</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-14785" id="mega-menu-item-14785"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">About QA Consultants<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-20275" id="mega-menu-item-20275"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/">The QAC Advantage</a></li><li class="mega-menu-item mega-menu-item-type-taxonomy mega-menu-item-object-category mega-menu-item-19436" id="mega-menu-item-19436"><a class="mega-menu-link" href="https://qaconsultants.com/category/news/">News</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11461" id="mega-menu-item-11461"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/leadership/">Leadership Team</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-12185" id="mega-menu-item-12185"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/partners/">Partners</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-11650" id="mega-menu-item-11650"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/qac-story/">QA Consultants Story</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15873" id="mega-menu-item-15873"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/brand-guide/">Brand Guide</a></li></ul>
+</li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-disable-link mega-menu-item-9690" id="mega-menu-item-9690"><a class="mega-menu-link" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button">Contact QA Consultants<span class="mega-indicator" data-has-click-event="true"></span></a>
+<ul class="mega-sub-menu">
+<li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-20274" id="mega-menu-item-20274"><a class="mega-menu-link" href="https://qaconsultants.com/contact-us/">Contact us</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-15447" id="mega-menu-item-15447"><a class="mega-menu-link" href="https://qaconsultants.com/contact-us/media/">Media</a></li><li class="mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-9744" id="mega-menu-item-9744"><a class="mega-menu-link" href="https://qaconsultants.com/about-us/careers/">Careers</a></li></ul>
+</li></ul></div> </div>
+<div class="header-search-form">
+<div class="container">
+<form method="get" id="searchform" action="https://qaconsultants.com/">
+<input aria-label="Search" type="search" value="" name="s" id="s" class="search-input placeholder" placeholder="Search the website">
+<button type="submit" id="searchsubmit" class="search-submit">Search</button>
+</form> <div class="close-search" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="sb-site" class="website-wrapper" style="min-height: 928px;">
+
+<section class="content page-content">
+<article id="post-2" class="static-page post-2 page type-page status-publish hentry">
+<div class="entry-content" style="padding-top: 0px; padding-bottom: 0px; ">
+<section class="picseel-section parallax light-content rocket-lazyload lazyloaded" style="background-color: rgb(32, 148, 196); background-repeat: no-repeat; background-position: 50% 20px; background-size: cover; background-attachment: fixed; padding-top: 50px; padding-bottom: 50px; background-image: url(&quot;https://qaconsultants.com/wp-content/uploads/2020/10/QAC-Home-page-banner.webp&quot;);" data-ll-status="loaded">
+<div class="container">
+<div class="picseel-section-content">
+&nbsp;<br>
+&nbsp;<br>
+<div class="su-column su-column-size-1"><div class="su-column-inner su-u-clearfix su-u-trim">
+<div class="hp-text-flip-card">
+<div class="hp-text-flip-card-inner">
+<div class="hp-text-flip-card-front">Quality. Excellence. Delivered.</div>
+<div class="hp-text-flip-card-back">North America’s Largest Independent Onshore QA services Company</div>
+</div>
+</div>
+</div></div>
+&nbsp;<br>
+&nbsp;<p></p>
+<h2 class="qac-center">Latest Innovations:</h2>
+<div class="qac-carousel-main-wrap" role="toolbar">
+<section class="qac-slick slick-initialized slick-slider slick-dotted" data-accessibility="on" data-autoplay="on" data-pauseonhover="on" data-infinite="on" data-dots="on" data-slidestoshow="3" data-slidestoshowtab="1" data-slidestoshowmob="1" data-slidestoscroll="3" data-speed="1000" data-margin="30px" id="carousel-20764">
+
+
+
+
+
+<div aria-live="polite" class="slick-list draggable" style="height: 442px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 4830px; transform: translate3d(-690px, 0px, 0px);" role="listbox"><div class="carousel-item-9793 slick-slide slick-cloned" style="width: 670px;" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/accessibility-testing/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/accessibility-testing-in-the-new-age-of-web-pages.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/11/accessibility-testing-in-the-new-age-of-web-pages.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Accessibility Testing </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20780 slick-slide slick-current slick-active" style="width: 670px;" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/xcog-qa-for-ai-robotics-and-autonomy/" target="_self" tabindex="0">
+<img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/12/em-7-xcog.webp" class="attachment- size- wp-post-image lazyloaded" alt="" data-ll-status="loaded"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/12/em-7-xcog.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+xCog: QA for AI, Robotics, and Autonomy </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20755 slick-slide" style="width: 670px;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/internet-of-things/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/em-4-iot.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/12/em-4-iot.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Internet of Things </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20753 slick-slide" style="width: 670px;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/connected-vehicles/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2021/01/em-2-connected-vehicles-1.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2021/01/em-2-connected-vehicles-1.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Connected Vehicles </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20752 slick-slide" style="width: 670px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/configurable-systems/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/em-1-configurable-systems.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/12/em-1-configurable-systems.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Configurable systems </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-9793 slick-slide" style="width: 670px;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/accessibility-testing/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/accessibility-testing-in-the-new-age-of-web-pages.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/11/accessibility-testing-in-the-new-age-of-web-pages.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Accessibility Testing </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20780 slick-slide slick-cloned" style="width: 670px;" data-slick-index="5" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/xcog-qa-for-ai-robotics-and-autonomy/" target="_self" tabindex="-1">
+<img width="550" height="315" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20550%20315'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/em-7-xcog.webp"><noscript><img width="550" height="315" src="https://qaconsultants.com/wp-content/uploads/2020/12/em-7-xcog.webp" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+xCog: QA for AI, Robotics, and Autonomy </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div></div></div><ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" aria-hidden="false" role="tab" id="slick-slide130"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li role="tab" id="slick-slide131"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li role="tab" id="slick-slide132"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li role="tab" id="slick-slide133"><button type="button" data-role="none" role="button" tabindex="0">4</button></li><li role="tab" id="slick-slide134"><button type="button" data-role="none" role="button" tabindex="0">5</button></li></ul></section>
+</div>
+</div>
+</div>
+</section>
+<section class="picseel-section dark-content" style=" background-color: #f5f5f5; background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll; padding-top: 50px; padding-bottom: 50px;">
+<div class="container">
+<div class="picseel-section-content">
+<h2 class="home-special-heading underline">Testing is all we do</h2>
+<div class="row ">
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img">
+<img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-TA.webp" width="500" height="170" alt="" class="lazyloaded" data-ll-status="loaded"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-TA.webp" width="500" height="170" alt="" /></noscript>
+</div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript>
+</p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/test-automation/" class="stretched-link">Automation</a></div>
+</div>
+<div class="flip-card-back">At QAC, we’ve been doing test automation for over 20 years. Replacing traditional, high maintenance frameworks with agile practices and high reusability. Automate First Approach!</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img">
+<img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-FT.webp" width="500" height="170" alt="" class="lazyloaded" data-ll-status="loaded"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-FT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/functional-testing/" class="stretched-link">Functional</a></div>
+</div>
+<div class="flip-card-back">We are passionate about quality, are dedicated to the craft, and work tirelessly to find defects. We focus on Risk Based approach, test smartly and encourage exploration.
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img">
+<img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-PT.webp" width="500" height="170" alt="" class="lazyloaded" data-ll-status="loaded"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-PT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title">
+<a href="https://qaconsultants.com/solutions-and-services/performance-testing/" class="stretched-link">Performance</a></div>
+</div>
+<div class="flip-card-back">Our performance engineering teams support development processes, performance and load testing, as well as system tuning and SRE support.
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row ">
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/home-IT.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-IT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/integration-testing/" class="stretched-link">Integration</a></div>
+</div>
+<div class="flip-card-back">
+Not only do our teams focus on end to end validation, but direct support for APIs, Services, and Microservices testing to keep systems running.
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/home-ST.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-ST.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/security-testing/" class="stretched-link">Security</a></div>
+</div>
+<div class="flip-card-back">
+Our vulnerability assessments pickup where InfoSec and network security leave off. We identify the attack surface, find vulnerabilities, exploit, and remediate.
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/home-MT.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-MT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/mobile-testing/" class="stretched-link">Mobile</a></div>
+</div>
+<div class="flip-card-back">
+Our devices or yours. On premise or hosted. Our mobility quality practice is focused on functional, compatibility, and usability testing across all aspects of mobile application deployments.
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row ">
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/home-DT.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-DT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/data-testing/" class="stretched-link">Data</a></div>
+</div>
+<div class="flip-card-back">
+We provide the most up-to-date and comprehensive solutions, including data acquisition, integration, storage, and presentation. Quality data avoids cheap fixes and end-product failures.
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/home-AT.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-AT.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/specialized-audit/" class="stretched-link">Specialized Audit</a></div>
+</div>
+<div class="flip-card-back">
+Be it QA organizational maturity, audits for compliance with GDPR, FDA, HIPAA, and other regulatory conformance reporting, QAC’s advisory practice is focused on rapid results and actionable reporting.
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="https://qaconsultants.com/wp-content/uploads/2020/12/home-AAT.webp&quot;" width="500" height="170" alt=""></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/training/accessibility-wcag-training/" class="stretched-link">Accessibility</a></div>
+</div>
+<div class="flip-card-back">
+Our dedicated practice to ADA/Section 508/AODA testing includes both Accessibility Compliance Audit and detailed testing and validation across all A, AA, and AAA levels of the WCAG WC3 models.
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row ">
+<div class="col-md-4" style="">
+</div>
+<div class="col-md-4" style="">
+<div class="flip-card">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<div class="flip-card-pic">
+<div class="flip-card-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20170'%3E%3C/svg%3E" width="500" height="170" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/home-ET.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/home-ET.webp" width="500" height="170" alt="" /></noscript></div>
+<p><img class="flip-card-icon" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg"><noscript><img class="flip-card-icon" src="https://qaconsultants.com/wp-content/uploads/2020/11/qac-logo.svg" alt="" /></noscript></p></div>
+<div class="flip-card-title"><a href="https://qaconsultants.com/solutions-and-services/emerging-technologies/" class="stretched-link">Emerging Technologies</a></div>
+</div>
+<div class="flip-card-back">We are Constantly Investing in the Future of Quality
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4" style="">
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="picseel-section dark-content" style=" background-color: #fff; background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll; padding-top: 0px; padding-bottom: 0px;">
+<div class="picseel-section-content">
+&nbsp;<p></p>
+<h2 class="home-special-heading">Trusted by Industry Leaders</h2>
+<div class="qac-carousel-main-wrap">
+<section class="qac-slick slick-initialized slick-slider" data-accessibility="on" data-autoplay="on" data-autoplayspeed="0" data-pauseonhover="on" data-infinite="on" data-slidestoshow="6" data-slidestoshowmob="2" data-speed="2800" data-margin="20px" id="carousel-20514">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div aria-live="polite" class="slick-list draggable"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 17632px; transform: translate3d(-1064px, 0px, 0px); transition: transform 2800ms linear 0s;" role="listbox"><div class="carousel-item-20313 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-6" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CBS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CBS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20314 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-5" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20311 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-4" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BC.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20310 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-3" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/UT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/UT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20309 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-2" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SV.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SV.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20304 slick-slide slick-cloned" style="width: 132px;" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AV.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AV.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20655 slick-slide" style="width: 132px;" data-slick-index="0" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CanHealthInfo.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/CanHealthInfo.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20656 slick-slide slick-current slick-active" style="width: 132px;" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/SanAntonioWS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/SanAntonioWS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20654 slick-slide slick-active" style="width: 132px;" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/TheCanPress.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/TheCanPress.svg " alt=""></noscript> </div>
+</div>
+ </div><div class="carousel-item-20653 slick-slide slick-active" style="width: 132px;" data-slick-index="3" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/Cadillac-Fair.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/Cadillac-Fair.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20597 slick-slide slick-active" style="width: 132px;" data-slick-index="4" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/Digital-Reasoning.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/Digital-Reasoning.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20596 slick-slide slick-active" style="width: 132px;" data-slick-index="5" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/BMO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/BMO.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20595 slick-slide slick-active" style="width: 132px;" data-slick-index="6" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CINEPLEX.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CINEPLEX.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20510 slick-slide" style="width: 132px;" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/shoppers.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/shoppers.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20509 slick-slide" style="width: 132px;" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/hudsonbay.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/hudsonbay.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20507 slick-slide" style="width: 132px;" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/loyalty-one.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/loyalty-one.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20506 slick-slide" style="width: 132px;" data-slick-index="10" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/aimia.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/aimia.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20505 slick-slide" style="width: 132px;" data-slick-index="11" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/canadiantirefinancial.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/canadiantirefinancial.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20503 slick-slide" style="width: 132px;" data-slick-index="12" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/loblawslogo.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/loblawslogo.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20502 slick-slide" style="width: 132px;" data-slick-index="13" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/fglsports.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/fglsports.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20501 slick-slide" style="width: 132px;" data-slick-index="14" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/fourseasonslogo.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/fourseasonslogo.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20483 slick-slide" style="width: 132px;" data-slick-index="15" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ELEM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ELEM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20460 slick-slide" style="width: 132px;" data-slick-index="16" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20459 slick-slide" style="width: 132px;" data-slick-index="17" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Sweetlabs.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Sweetlabs.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20458 slick-slide" style="width: 132px;" data-slick-index="18" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Paradigm.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Paradigm.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20457 slick-slide" style="width: 132px;" data-slick-index="19" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Metrolinx.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Metrolinx.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20456 slick-slide" style="width: 132px;" data-slick-index="20" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_iVinci.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_iVinci.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20454 slick-slide" style="width: 132px;" data-slick-index="21" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Alteris.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Alteris.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20452 slick-slide" style="width: 132px;" data-slick-index="22" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_AGCO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_AGCO.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20451 slick-slide" style="width: 132px;" data-slick-index="23" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes-CIBC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes-CIBC.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20447 slick-slide" style="width: 132px;" data-slick-index="24" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Gigster.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Gigster.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20401 slick-slide" style="width: 132px;" data-slick-index="25" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/OPTR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/OPTR.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20400 slick-slide" style="width: 132px;" data-slick-index="26" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/MORN.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/MORN.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20399 slick-slide" style="width: 132px;" data-slick-index="27" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HOOP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HOOP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20396 slick-slide" style="width: 132px;" data-slick-index="28" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/EQUU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/EQUU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20394 slick-slide" style="width: 132px;" data-slick-index="29" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/LEVE.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/LEVE.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20392 slick-slide" style="width: 132px;" data-slick-index="30" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BOND.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BOND.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20390 slick-slide" style="width: 132px;" data-slick-index="31" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/JEW.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/JEW.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20389 slick-slide" style="width: 132px;" data-slick-index="32" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/INTR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/INTR.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20388 slick-slide" style="width: 132px;" data-slick-index="33" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/FRESH.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/FRESH.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20386 slick-slide" style="width: 132px;" data-slick-index="34" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CSC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CSC.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20385 slick-slide" style="width: 132px;" data-slick-index="35" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CHEF.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CHEF.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20384 slick-slide" style="width: 132px;" data-slick-index="36" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ARCH.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ARCH.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20383 slick-slide" style="width: 132px;" data-slick-index="37" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TERA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TERA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20381 slick-slide" style="width: 132px;" data-slick-index="38" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ONTA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ONTA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20380 slick-slide" style="width: 132px;" data-slick-index="39" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/MYHE.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/MYHE.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20378 slick-slide" style="width: 132px;" data-slick-index="40" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AIRM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AIRM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20376 slick-slide" style="width: 132px;" data-slick-index="41" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ACCE.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ACCE.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20377 slick-slide" style="width: 132px;" data-slick-index="42" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ADVE.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ADVE.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20374 slick-slide" style="width: 132px;" data-slick-index="43" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/PRAX.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/PRAX.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20372 slick-slide" style="width: 132px;" data-slick-index="44" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HYUN.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HYUN.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20373 slick-slide" style="width: 132px;" data-slick-index="45" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/MCAP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/MCAP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20371 slick-slide" style="width: 132px;" data-slick-index="46" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HIT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HIT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20370 slick-slide" style="width: 132px;" data-slick-index="47" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/DELO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/DELO.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20368 slick-slide" style="width: 132px;" data-slick-index="48" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AUDI.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AUDI.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20369 slick-slide" style="width: 132px;" data-slick-index="49" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BMW.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BMW.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20367 slick-slide" style="width: 132px;" data-slick-index="50" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TELU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TELU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20365 slick-slide" style="width: 132px;" data-slick-index="51" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/LOB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/LOB.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20366 slick-slide" style="width: 132px;" data-slick-index="52" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ONX.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ONX.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20363 slick-slide" style="width: 132px;" data-slick-index="53" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BIMM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BIMM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20364 slick-slide" style="width: 132px;" data-slick-index="54" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CIHI.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CIHI.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20361 slick-slide" style="width: 132px;" data-slick-index="55" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AN4.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AN4.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20362 slick-slide" style="width: 132px;" data-slick-index="56" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/APP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/APP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20360 slick-slide" style="width: 132px;" data-slick-index="57" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ADOB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ADOB.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20358 slick-slide" style="width: 132px;" data-slick-index="58" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TAX.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TAX.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20359 slick-slide" style="width: 132px;" data-slick-index="59" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TMA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TMA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20357 slick-slide" style="width: 132px;" data-slick-index="60" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SNA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SNA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20355 slick-slide" style="width: 132px;" data-slick-index="61" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/IVA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/IVA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20354 slick-slide" style="width: 132px;" data-slick-index="62" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/GMU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/GMU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20352 slick-slide" style="width: 132px;" data-slick-index="63" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ADP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ADP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20353 slick-slide" style="width: 132px;" data-slick-index="64" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AEC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AEC.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20351 slick-slide" style="width: 132px;" data-slick-index="65" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TDB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TDB.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20350 slick-slide" style="width: 132px;" data-slick-index="66" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/OMA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/OMA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20348 slick-slide" style="width: 132px;" data-slick-index="67" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ERI.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ERI.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20349 slick-slide" style="width: 132px;" data-slick-index="68" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20347 slick-slide" style="width: 132px;" data-slick-index="69" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CRM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CRM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20345 slick-slide" style="width: 132px;" data-slick-index="70" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BEL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BEL.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20344 slick-slide" style="width: 132px;" data-slick-index="71" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/ATT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/ATT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20343 slick-slide" style="width: 132px;" data-slick-index="72" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SYM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SYM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20342 slick-slide" style="width: 132px;" data-slick-index="73" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SNP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SNP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20340 slick-slide" style="width: 132px;" data-slick-index="74" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/PCL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/PCL.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20338 slick-slide" style="width: 132px;" data-slick-index="75" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/NAP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/NAP.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20337 slick-slide" style="width: 132px;" data-slick-index="76" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/DH.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/DH.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20336 slick-slide" style="width: 132px;" data-slick-index="77" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CHU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CHU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20335 slick-slide" style="width: 132px;" data-slick-index="78" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/WUN.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/WUN.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20332 slick-slide" style="width: 132px;" data-slick-index="79" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/EQU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/EQU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20333 slick-slide" style="width: 132px;" data-slick-index="80" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/INTA.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/INTA.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20334 slick-slide" style="width: 132px;" data-slick-index="81" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TBW.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TBW.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20330 slick-slide" style="width: 132px;" data-slick-index="82" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/COO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/COO.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20331 slick-slide" style="width: 132px;" data-slick-index="83" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/COSS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/COSS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20328 slick-slide" style="width: 132px;" data-slick-index="84" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AMI.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AMI.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20329 slick-slide" style="width: 132px;" data-slick-index="85" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BR.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20327 slick-slide" style="width: 132px;" data-slick-index="86" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TOH.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TOH.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20324 slick-slide" style="width: 132px;" data-slick-index="87" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/MATT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/MATT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20325 slick-slide" style="width: 132px;" data-slick-index="88" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/PEM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/PEM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20326 slick-slide" style="width: 132px;" data-slick-index="89" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/TIRE.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/TIRE.svg " alt=""></noscript> </div>
+</div>
+ </div><div class="carousel-item-20322 slick-slide" style="width: 132px;" data-slick-index="90" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/LL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/LL.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20323 slick-slide" style="width: 132px;" data-slick-index="91" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/LOG.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/LOG.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20321 slick-slide" style="width: 132px;" data-slick-index="92" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/FID.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/FID.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20319 slick-slide" style="width: 132px;" data-slick-index="93" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20318 slick-slide" style="width: 132px;" data-slick-index="94" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SOU.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SOU.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20317 slick-slide" style="width: 132px;" data-slick-index="95" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/RCM.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/RCM.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20316 slick-slide" style="width: 132px;" data-slick-index="96" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/OTR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/OTR.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20315 slick-slide" style="width: 132px;" data-slick-index="97" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/KAN.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/KAN.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20313 slick-slide" style="width: 132px;" data-slick-index="98" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/CBS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/CBS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20314 slick-slide" style="width: 132px;" data-slick-index="99" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/HT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/HT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20311 slick-slide" style="width: 132px;" data-slick-index="100" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/BC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/BC.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20310 slick-slide" style="width: 132px;" data-slick-index="101" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/UT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/UT.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20309 slick-slide" style="width: 132px;" data-slick-index="102" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/SV.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/SV.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20304 slick-slide" style="width: 132px;" data-slick-index="103" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/AV.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/AV.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20655 slick-slide slick-cloned" style="width: 132px;" data-slick-index="104" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CanHealthInfo.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/CanHealthInfo.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20656 slick-slide slick-cloned" style="width: 132px;" data-slick-index="105" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/SanAntonioWS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/SanAntonioWS.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20654 slick-slide slick-cloned" style="width: 132px;" data-slick-index="106" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/TheCanPress.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/TheCanPress.svg " alt=""></noscript> </div>
+</div>
+ </div><div class="carousel-item-20653 slick-slide slick-cloned" style="width: 132px;" data-slick-index="107" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/Cadillac-Fair.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/12/Cadillac-Fair.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20597 slick-slide slick-cloned" style="width: 132px;" data-slick-index="108" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/Digital-Reasoning.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/Digital-Reasoning.svg " alt=""></noscript> </div>
+</div>
+</div><div class="carousel-item-20596 slick-slide slick-cloned" style="width: 132px;" data-slick-index="109" aria-hidden="true" tabindex="-1">
+<div class="post-style-2 rpc-bg rpc-box">
+<div class="qac-img-wrap">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/BMO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/BMO.svg " alt=""></noscript> </div>
+</div>
+</div></div></div></section>
+</div>
+</div>
+</section>
+<section class="picseel-section dark-content" style=" background-color: #f5f5f5; background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll; padding-top: 90px; padding-bottom: 90px;">
+<div class="container">
+<div class="picseel-section-content">
+<h2 class="home-special-heading">How we deliver: Engagement models</h2>
+<div class="row ">
+<div class="col-md-3" style="">
+<div class="qac-center  iconbox animated-entrance" data-animation="zoomIn">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/On-Demand-Testing-Icon.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/On-Demand-Testing-Icon.webp" alt=""></noscript><p></p>
+<h3>ON DEMAND TESTING™</h3>
+<p><a href="https://qaconsultants.com/solutions-and-services/on-demand-testing/">Access to industry and solutions experts when you need it most</a></p></div>
+</div>
+<div class="col-md-3" style="">
+<div class="qac-center  iconbox animated-entrance" data-animation="zoomIn">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Test-Factory-Icon.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Test-Factory-Icon.webp" alt=""></noscript><p></p>
+<h3>TEST FACTORY™</h3>
+<p><a href="https://qaconsultants.com/solutions-and-services/test-factory/">QA Consultants’ answer to offshore and remote-based quality assurance software testing</a></p></div>
+</div>
+<div class="col-md-3" style="">
+<div class="qac-center  iconbox animated-entrance" data-animation="zoomIn">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Project-Based-Icon.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Project-Based-Icon.webp" alt=""></noscript><p></p>
+<h3>PROJECT BASED</h3>
+<p><a href="https://qaconsultants.com/solutions-and-services/project-based/">Improve processes and teams with our seasoned experience</a>
+</p></div>
+</div>
+<div class="col-md-3" style="">
+<div class="qac-center  iconbox animated-entrance" data-animation="zoomIn">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Managed-Services-Icon.webp"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Managed-Services-Icon.webp" alt=""></noscript><p></p>
+<h3>MANAGED SERVICES</h3>
+<p><a href="https://qaconsultants.com/solutions-and-services/managed-services/">Industry experts who can identify your customized testing solution</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section data-bg="https://qaconsultants.com/wp-content/uploads/2020/10/QAC-Home-page-banner-3.webp" class="picseel-section parallax light-content rocket-lazyload" style="background-repeat: no-repeat; background-position: 50% 774px; background-size: cover; background-attachment: fixed; padding-top: 90px; padding-bottom: 90px;">
+<div class="container">
+<div class="picseel-section-content">
+<h2 class="home-special-heading-white">Latest Case Studies</h2>
+<div class="home-text-white">Better business and project outcomes are maximized when your dedicated testing personnel have extensive industry experience. QA Consultants’ history of delivering 10,000+ projects has given us exposure every market sector and industry around the world. Every one of our testers, consultants, and project managers has relevant experience in a variety of sectors. To ensure maximum productivity, all testers receive specialized education on their clients’ industry and issues before starting projects</div>
+<div class="qac-carousel-main-wrap" role="toolbar">
+<section class="qac-slick slick-initialized slick-slider slick-dotted" data-accessibility="on" data-autoplay="on" data-pauseonhover="on" data-infinite="on" data-dots="on" data-slidestoshow="4" data-slidestoshowtab="3" data-slidestoshowmob="1" data-slidestoscroll="4" data-speed="1000" data-margin="10px" data-arrows="on" id="carousel-20010"><button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="display: block;">Previous</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div aria-live="polite" class="slick-list draggable"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 6900px; transform: translate3d(-690px, 0px, 0px);" role="listbox"><div class="carousel-item-14836 slick-slide slick-cloned" style="width: 210px;" data-slick-index="-3" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/allcal/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-ALL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-ALL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Allcal </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14835 slick-slide slick-cloned" style="width: 210px;" data-slick-index="-2" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/agco/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AGC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AGC.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+AGCO </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14834 slick-slide slick-cloned" style="width: 210px;" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/analytics-4-life/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4AL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4AL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Analytics 4 Life </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20863 slick-slide slick-current slick-active" style="width: 210px;" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/fgl-sports/" target="_blank" tabindex="0">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-FGL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-FGL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+FGL Sports </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20862 slick-slide slick-active" style="width: 210px;" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/texas-capital-bank/" target="_blank" tabindex="0">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TCB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TCB.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Texas Capital Bank </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10460 slick-slide slick-active" style="width: 210px;" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/praxair/" target="_blank" tabindex="0">
+<img width="275" height="190" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20275%20190'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-PRAXAIR.svg"><noscript><img width="275" height="190" src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-PRAXAIR.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Praxair </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10456 slick-slide" style="width: 210px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/loblaws/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-LOB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-LOB.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Loblaws </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10454 slick-slide" style="width: 210px;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/leading-law-firm/" target="_blank" tabindex="-1">
+<img width="275" height="190" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20275%20190'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-Law.svg"><noscript><img width="275" height="190" src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-Law.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Leading Law Firm </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10450 slick-slide" style="width: 210px;" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/four-seasons/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4S.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4S.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Four Seasons </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10448 slick-slide" style="width: 210px;" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/ehealth-ontario/" target="_blank" tabindex="-1">
+<img width="275" height="190" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20275%20190'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-eHealth.svg"><noscript><img width="275" height="190" src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-eHealth.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+eHealth Ontario </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10441 slick-slide" style="width: 210px;" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/aviva-canada/" target="_blank" tabindex="-1">
+<img width="275" height="190" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20275%20190'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-AVIVA.svg"><noscript><img width="275" height="190" src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-AVIVA.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Aviva Canada </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20014 slick-slide" style="width: 210px;" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/canadian-tire/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CANT.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CANT.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Canadian Tire </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20011 slick-slide" style="width: 210px;" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/canadian-tire-financial-services/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CANTF.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CANTF.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Canadian Tire Financial Services </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-19600 slick-slide" style="width: 210px;" data-slick-index="10" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/gigster/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-GIGS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-GIGS.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Gigster </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+ </div><div class="carousel-item-15347 slick-slide" style="width: 210px;" data-slick-index="11" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/toronto-hydro-2/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TH.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TH.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Toronto Hydro </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-15116 slick-slide" style="width: 210px;" data-slick-index="12" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/supervalu/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-SUP.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-SUP.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+SuperValu </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-15110 slick-slide" style="width: 210px;" data-slick-index="13" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/teachstone/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TS.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TS.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Teachstone </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-15107 slick-slide" style="width: 210px;" data-slick-index="14" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/sweetlabs/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-SW.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-SW.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+SweetLabs </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-15104 slick-slide" style="width: 210px;" data-slick-index="15" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/ivinci-health-treatment/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-IV.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-IV.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+iVinci Health Treatment </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-15101 slick-slide" style="width: 210px;" data-slick-index="16" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/alteris-group/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Alteris Group </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14842 slick-slide" style="width: 210px;" data-slick-index="17" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/paradigm-quest/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-PAR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-PAR.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Paradigm Quest </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14841 slick-slide" style="width: 210px;" data-slick-index="18" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/metrolinx/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-MET.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-MET.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Metrolinx </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14839 slick-slide" style="width: 210px;" data-slick-index="19" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/cineplex/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CIN.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-CIN.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Cineplex Digital Media </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14837 slick-slide" style="width: 210px;" data-slick-index="20" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/bclc/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-BC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-BC.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+BC Lottery </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14836 slick-slide" style="width: 210px;" data-slick-index="21" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/allcal/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-ALL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-ALL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Allcal </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14835 slick-slide" style="width: 210px;" data-slick-index="22" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/agco/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AGC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-AGC.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+AGCO </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-14834 slick-slide" style="width: 210px;" data-slick-index="23" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/analytics-4-life/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4AL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-4AL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Analytics 4 Life </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20863 slick-slide slick-cloned" style="width: 210px;" data-slick-index="24" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/fgl-sports/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-FGL.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-FGL.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+FGL Sports </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-20862 slick-slide slick-cloned" style="width: 210px;" data-slick-index="25" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/texas-capital-bank/" target="_blank" tabindex="-1">
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TCB.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/11/CS-TCB.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Texas Capital Bank </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div><div class="carousel-item-10460 slick-slide slick-cloned" style="width: 210px;" data-slick-index="26" aria-hidden="true" tabindex="-1">
+<div class="rpc-post-carousel3 rpc-box">
+<div class="rpc-post-image">
+<a href="https://qaconsultants.com/case-studies/praxair/" target="_blank" tabindex="-1">
+<img width="275" height="190" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20275%20190'%3E%3C/svg%3E" class="attachment- size- wp-post-image" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-PRAXAIR.svg"><noscript><img width="275" height="190" src="https://qaconsultants.com/wp-content/uploads/2020/12/CS-PRAXAIR.svg" class="attachment- size- wp-post-image" alt="" /></noscript> <div class="rpc-post-title">
+Praxair </div>
+</a>
+</div>
+<div class="rpc-desc-box rpc-bg">
+
+<div class="clearfix"></div>
+<div class="rpc-post-para rpc-content">
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div></div></div><button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" aria-hidden="false" role="tab" id="slick-slide150"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li role="tab" id="slick-slide151"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li role="tab" id="slick-slide152"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li role="tab" id="slick-slide153"><button type="button" data-role="none" role="button" tabindex="0">4</button></li><li role="tab" id="slick-slide154"><button type="button" data-role="none" role="button" tabindex="0">5</button></li><li role="tab" id="slick-slide155"><button type="button" data-role="none" role="button" tabindex="0">6</button></li><li role="tab" id="slick-slide156"><button type="button" data-role="none" role="button" tabindex="0">7</button></li><li role="tab" id="slick-slide157"><button type="button" data-role="none" role="button" tabindex="0">8</button></li><li role="tab" id="slick-slide158"><button type="button" data-role="none" role="button" tabindex="0">9</button></li><li role="tab" id="slick-slide159"><button type="button" data-role="none" role="button" tabindex="0">10</button></li><li role="tab" id="slick-slide1510"><button type="button" data-role="none" role="button" tabindex="0">11</button></li><li role="tab" id="slick-slide1511"><button type="button" data-role="none" role="button" tabindex="0">12</button></li><li role="tab" id="slick-slide1512"><button type="button" data-role="none" role="button" tabindex="0">13</button></li><li role="tab" id="slick-slide1513"><button type="button" data-role="none" role="button" tabindex="0">14</button></li><li role="tab" id="slick-slide1514"><button type="button" data-role="none" role="button" tabindex="0">15</button></li><li role="tab" id="slick-slide1515"><button type="button" data-role="none" role="button" tabindex="0">16</button></li><li role="tab" id="slick-slide1516"><button type="button" data-role="none" role="button" tabindex="0">17</button></li><li role="tab" id="slick-slide1517"><button type="button" data-role="none" role="button" tabindex="0">18</button></li><li role="tab" id="slick-slide1518"><button type="button" data-role="none" role="button" tabindex="0">19</button></li><li role="tab" id="slick-slide1519"><button type="button" data-role="none" role="button" tabindex="0">20</button></li><li role="tab" id="slick-slide1520"><button type="button" data-role="none" role="button" tabindex="0">21</button></li><li role="tab" id="slick-slide1521"><button type="button" data-role="none" role="button" tabindex="0">22</button></li><li role="tab" id="slick-slide1522"><button type="button" data-role="none" role="button" tabindex="0">23</button></li><li role="tab" id="slick-slide1523"><button type="button" data-role="none" role="button" tabindex="0">24</button></li></ul></section>
+</div>
+</div>
+</div>
+</section>
+<section class="picseel-section dark-content" style=" background-color: #f5f5f5; background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll; padding-top: 0px; padding-bottom: 0px;">
+<div class="container">
+<div class="picseel-section-content">
+<div class="promobox animated-entrance promobox-no-padding" style="" data-animation="fadeInUp">
+<div class="row promobox-wrapper">
+<div class="col-md-9 promobox-content">
+<h3>Be in the know</h3>
+<p>Stay in touch with our latest promotions, whitepapers, and events.</p>
+</div>
+<div class="col-md-3 promobox-btn"><a href="https://qaconsultants.com/subscribe/" class="btn btn-big btn-default btn-fill btn-rounded" target="_blank">Subscribe Now</a></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="picseel-section dark-content" style=" background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll; padding-top: 90px; padding-bottom: 90px;">
+<div class="container">
+<div class="picseel-section-content">
+<div class="pgafu-post-grid-main pgafu-design-2 pgafu-image-fit pgafu-grid-3 pgafu-clearfix">
+<div class="pgafu-post-grid  pgafu-medium-4 pgafu-columns  pgafu-first">
+<div class="pgafu-post-grid-content ">
+<div class="pgafu-post-image-bg" style="">
+ <a href="https://qaconsultants.com/news/gabriella-szasz-joins-qa-consultants/">
+<img width="349" height="200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20349%20200'%3E%3C/svg%3E" class="attachment-374x200 size-374x200 wp-post-image" alt="Gabriella Szasz joins QA Consultants" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Gabriella-Szasz-joins-QAC.webp"><noscript><img width="349" height="200" src="https://qaconsultants.com/wp-content/uploads/2020/10/Gabriella-Szasz-joins-QAC.webp" class="attachment-374x200 size-374x200 wp-post-image" alt="Gabriella Szasz joins QA Consultants" /></noscript> </a>
+</div>
+<div class="pgafu-content-above-image">
+<h2 class="pgafu-post-title">Gabriella Szasz joins QA Consultants</h2>
+<div class="pgafu-post-date">
+<span class="pgafu-user-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="author:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg" alt="author:"></noscript> Lidia Le Francois</span>
+&nbsp; <span class="pgafu-time"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="updated on:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg" alt="updated on:"></noscript> July 22, 2020 </span>
+&nbsp;
+</div>
+<div class="pgafu-post-content">
+<div class="pgafu-post-short-content">QA Consultants is proud to announce Gabriella Szasz, has joined Toronto-based QA Consultants. Gabriella Szasz served a Senior Vice President with Global QA Responsibilities at Wells Fargo Bank for...</div>
+<a aria-label="Read more about: Gabriella Szasz joins QA Consultants" href="https://qaconsultants.com/news/gabriella-szasz-joins-qa-consultants/" class="readmorebtn">Read More</a>
+</div>
+</div>
+</div>
+</div><div class="pgafu-post-grid  pgafu-medium-4 pgafu-columns ">
+<div class="pgafu-post-grid-content ">
+<div class="pgafu-post-image-bg" style="">
+<a href="https://qaconsultants.com/news/bombardier/">
+<img width="349" height="200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20349%20200'%3E%3C/svg%3E" class="attachment-374x200 size-374x200 wp-post-image" alt="QAC’s XVIT (“SHIFT”) partner, Bombardier, sees success with Machine Learning Transportation Solutions" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/bombardier.webp"><noscript><img width="349" height="200" src="https://qaconsultants.com/wp-content/uploads/2020/10/bombardier.webp" class="attachment-374x200 size-374x200 wp-post-image" alt="QAC&#8217;s XVIT (&#8220;SHIFT&#8221;) partner, Bombardier, sees success with Machine Learning Transportation Solutions" /></noscript> </a>
+</div>
+<div class="pgafu-content-above-image">
+<h2 class="pgafu-post-title">QAC’s XVIT (“SHIFT”) partner, Bombardier, sees success with Machine Learning Transportation Solutions</h2>
+<div class="pgafu-post-date">
+<span class="pgafu-user-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="author:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg" alt="author:"></noscript> Lidia Le Francois</span>
+&nbsp; <span class="pgafu-time"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="updated on:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg" alt="updated on:"></noscript> May 26, 2020 </span>
+&nbsp;
+</div>
+<div class="pgafu-post-content">
+<div class="pgafu-post-short-content">Great strides in Natural Language Programming automation solutions. QA Consultants is proud to see our collaborative effort with Bombardier as part of the ITEA XIVT program being recognized in this...</div>
+<a aria-label="Read more about: QAC’s XVIT (“SHIFT”) partner, Bombardier, sees success with Machine Learning Transportation Solutions" href="https://qaconsultants.com/news/bombardier/" class="readmorebtn">Read More</a>
+</div>
+</div>
+</div>
+</div><div class="pgafu-post-grid  pgafu-medium-4 pgafu-columns  pgafu-last">
+<div class="pgafu-post-grid-content ">
+<div class="pgafu-post-image-bg" style="">
+<a href="https://qaconsultants.com/news/working-with-our-clients-during-covid-19/">
+<img width="349" height="200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20349%20200'%3E%3C/svg%3E" class="attachment-374x200 size-374x200 wp-post-image" alt="Working with our Clients during COVID-19" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/clients-during-COVID-19.webp"><noscript><img width="349" height="200" src="https://qaconsultants.com/wp-content/uploads/2020/10/clients-during-COVID-19.webp" class="attachment-374x200 size-374x200 wp-post-image" alt="Working with our Clients during COVID-19" /></noscript> </a>
+</div>
+<div class="pgafu-content-above-image">
+<h2 class="pgafu-post-title">Working with our Clients during COVID-19</h2>
+<div class="pgafu-post-date">
+<span class="pgafu-user-img"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="author:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/user.svg" alt="author:"></noscript> Lidia Le Francois</span>
+&nbsp; <span class="pgafu-time"> <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="updated on:" data-lazy-src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg"><noscript><img src="https://qaconsultants.com/wp-content/plugins/post-grid-and-filter-qac/assets/images/calendar.svg" alt="updated on:"></noscript> March 20, 2020 </span>
+&nbsp;
+</div>
+<div class="pgafu-post-content">
+<div class="pgafu-post-short-content">A letter to our clients and partners from Alex Rodov, Founder and Managing Partner, QA Consultants Dear friends, I want to first send wishes on behalf of myself and our extended QA Consultants...</div>
+<a aria-label="Read more about: Working with our Clients during COVID-19" href="https://qaconsultants.com/news/working-with-our-clients-during-covid-19/" class="readmorebtn">Read More</a>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</section>
+<section data-bg="https://qac.staging.wpengine.com/wp-content/uploads/2018/08/services-background.jpg" class="picseel-section parallax light-content rocket-lazyload" style="background-color: rgb(32, 148, 196); background-repeat: no-repeat; background-position: 50% 1210px; background-size: cover; background-attachment: fixed; padding-top: 50px; padding-bottom: 30px;">
+<div class="container">
+<div class="picseel-section-content">
+<div class="qac-carousel-main-wrap" role="toolbar">
+<section class="qac-slick slick-initialized slick-slider slick-dotted" data-accessibility="on" data-autoplay="on" data-autoplayspeed="5000" data-cssease="on" data-pauseonhover="on" data-infinite="on" data-dots="on" data-speed="1000" id="carousel-20766">
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<div aria-live="polite" class="slick-list draggable" style="height: 314px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 10350px; transform: translate3d(-690px, 0px, 0px);" role="listbox"><div class="carousel-item-20461 slick-slide slick-cloned" style="width: 670px;" data-slick-index="-1" aria-hidden="true" tabindex="-1">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 100px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 0px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 0px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+Based on the work QA Consultants has done, we are going about our QA craft differently. </p>
+<footer>
+Ed Williams <span>Board Member </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-240 slick-slide slick-current slick-active" style="width: 670px;" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 224px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Adobe.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Adobe.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+For months we had problems getting to the root of our quality assurance problems. QA Consultants helped us precisely identify the quality issues, recommended practical actions, and guided us through a very difficult turnaround. We are more efficient and better equipped to produce world-class products because of the people, processes, and insights QA Consultants brought to our company. </p>
+<footer>
+Jeff Huff <span>Director of Engineering, Adobe </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-234 slick-slide" style="width: 670px;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 225px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes-CIBC.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes-CIBC.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+When you’re in the middle of a difficult and time-consuming systems integration, you’re always expecting something to go wrong. That makes you feel ‘on edge’ and powerless. At the same time, you’re hoping that nothing wrong happens because of the impact it will have on all departments and offices. QA Consultants understood that. That’s why they were able to deploy the right people on-site (and off-site) to ensure the integration went on without a hitch. </p>
+<footer>
+<span>Senior QA Manager </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-236 slick-slide" style="width: 670px;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 287px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_BR.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_BR.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+QA Consultants is an integral part of our business and has been for the past two years. Working on the largest account in our Toronto office, their team leads the QA efforts by developing comprehensive test plans and performing them across projects of varying complexity. Throughout the process, we receive regular status reports and collaborate during defect fixing to ensure the functional and non-functional requirements are satisfied. They demonstrate a solid understanding of development life cycles and have always had excellent communication skills. I look forward to more opportunities to engage with a great team. </p>
+<footer>
+Colton Horner <span>Project Manager Blast Radius </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-238 slick-slide" style="width: 670px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 245px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Aviva.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Aviva.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+Aviva has engaged QA Consultants on dozens of mission-critical testing projects over the past eight years. During these years QA Consultants demonstrated true partnership and a commitment to innovative testing and service practices, especially the Toronto-based Test Factory, which has consistently delivered value-added testing services. These new forms of business value that improve customer satisfaction and optimize cost are a true representation of the most progressive client/provider relationship. </p>
+<footer>
+Tatyana Dovga <span>AVP Quality Assurance and Testing Centre of Excellence Aviva Canada </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-19605 slick-slide" style="width: 670px;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 245px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Gigster.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Gigster.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+One of the great things about working with QA Consultants was their ability to seamlessly integrate and stay connected with our distributed and freelance team. They joined a complicated project with many moving parts and, despite multiple pivots and shifts in priority, they were able to provide a complete solution. I appreciated the willingness from all members of the QA Consultants team to dive right into a challenging environment that ultimately helped us deliver the best product we could.
+</p>
+<footer>
+Garrett Rich <span>Sr. Product Operations Manager </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20467 slick-slide" style="width: 670px;" data-slick-index="5" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 161px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Allcal.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Allcal.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+QA Consultants provided a cost effective and efficient solution that increased our ability to come to market with higher quality when we needed it. Their service not only increased our bandwidth, but improved the level of quality we could otherwise provide. </p>
+<footer>
+Danielle Cocanougher <span>Vice President </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20463 slick-slide" style="width: 670px;" data-slick-index="6" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 161px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_iVinci.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_iVinci.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+QA Consultants provided a cost effective and collaborative solution to support our quality needs while allowing us to scale our business. Their approach was one of true partnership, focused on our business outcomes, quality of customer experience, and mutual success. </p>
+<footer>
+Mark Lythgoe <span>CTO </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20468 slick-slide" style="width: 670px;" data-slick-index="7" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 266px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_AGCO.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_AGCO.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+Since the project kickoff, QAC has demonstrated an extraordinary commitment to excellence in customer service and support. Coupled with their deep technical expertise of the HP ALM solution, customer-centric approach and effective communication style, we feel lucky to have worked with QAC and have no doubt that they played a major role in the success of this engagement. Overall, we are very pleased with the relationship we have developed with QAC and look forward to continuing this through the next phases of the contract. </p>
+<footer>
+Jay Welbourn <span>Manager, Quality Assurance and Training </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20466 slick-slide" style="width: 670px;" data-slick-index="8" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 245px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Metrolinx.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Metrolinx.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+It has been a very long road to get to this milestone of complete Performance Testing. I am happy with what QAC has been able to accomplish in such a short period of time with all the obstacles and roadblocks you have encountered. You have persevered and were able to deliver on your commitments on schedule and with quality. The work you have done lays an excellent foundation for the capabilities and improvements you will be able to provide to use in the future. </p>
+<footer>
+Richard Blackwood <span>Performance Testing Manager </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20465 slick-slide" style="width: 670px;" data-slick-index="9" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 203px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Paradigm.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Paradigm.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+We selected QA Consultants as our QA and Testing Partner, and they have been great at not only enabling test automation for our most time consuming mortgage ingestion process, but also supporting us with agile tools adoption and On Demand resourcing which is helping us achieve significant cost savings, efficiencies and overall quality. </p>
+<footer>
+Saeyed Shamlou <span>Director, Quality Management &amp; Testing </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20464 slick-slide" style="width: 670px;" data-slick-index="10" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 150px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Alteris.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Alteris.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+QAC brought the ability to jump in immediately and produce usable results within hours. Their QA knowledge and understanding of our Digital agency business were critical to our mutual success. </p>
+<footer>
+David McDowall <span>Digital Solutions Manager </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20462 slick-slide" style="width: 670px;" data-slick-index="11" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 203px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Sweetlabs.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Sweetlabs.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+We chose QAC because they brought the best mix of mobile experience, reasonable cost, high quality process, and understanding our needs as a small fast startup org. Their test team really melded with our in house staff making it really feel like we had the much larger staff we needed, not just a run of the mill consulting/contracting engagement. </p>
+<footer>
+Mark Chweh <span>CTO </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-20461 slick-slide" style="width: 670px;" data-slick-index="12" aria-hidden="true" tabindex="-1" role="option" aria-selected="undefined">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 150px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 670px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 650px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_TeachStone.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+Based on the work QA Consultants has done, we are going about our QA craft differently. </p>
+<footer>
+Ed Williams <span>Board Member </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div><div class="carousel-item-240 slick-slide slick-cloned" style="width: 670px;" data-slick-index="13" aria-hidden="true" tabindex="-1">
+<div class="testimonials-rotator testimonials-left slick-initialized slick-slider">
+<div aria-live="polite" class="slick-list" style="height: 100px;"><div aria-label="slick-track" class="slick-track" style="opacity: 1; width: 0px; transform: translate(0px, 0px);" role="listbox"><div class="testimonial slick-slide" data-slick-index="0" aria-hidden="true" style="width: 0px;" tabindex="-1" role="option" aria-selected="undefined">
+<figure>
+<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Adobe.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2020/10/Quotes_Adobe.svg" alt=""></noscript> </figure>
+<blockquote>
+<p>
+For months we had problems getting to the root of our quality assurance problems. QA Consultants helped us precisely identify the quality issues, recommended practical actions, and guided us through a very difficult turnaround. We are more efficient and better equipped to produce world-class products because of the people, processes, and insights QA Consultants brought to our company. </p>
+<footer>
+Jeff Huff <span>Director of Engineering, Adobe </span>
+</footer>
+</blockquote>
+</div></div></div>
+</div> </div></div></div><ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" aria-hidden="false" role="tab" id="slick-slide160"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li role="tab" id="slick-slide161"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li role="tab" id="slick-slide162"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li role="tab" id="slick-slide163"><button type="button" data-role="none" role="button" tabindex="0">4</button></li><li role="tab" id="slick-slide164"><button type="button" data-role="none" role="button" tabindex="0">5</button></li><li role="tab" id="slick-slide165"><button type="button" data-role="none" role="button" tabindex="0">6</button></li><li role="tab" id="slick-slide166"><button type="button" data-role="none" role="button" tabindex="0">7</button></li><li role="tab" id="slick-slide167"><button type="button" data-role="none" role="button" tabindex="0">8</button></li><li role="tab" id="slick-slide168"><button type="button" data-role="none" role="button" tabindex="0">9</button></li><li role="tab" id="slick-slide169"><button type="button" data-role="none" role="button" tabindex="0">10</button></li><li role="tab" id="slick-slide1610"><button type="button" data-role="none" role="button" tabindex="0">11</button></li><li role="tab" id="slick-slide1611"><button type="button" data-role="none" role="button" tabindex="0">12</button></li><li role="tab" id="slick-slide1612"><button type="button" data-role="none" role="button" tabindex="0">13</button></li></ul></section>
+</div>
+</div>
+</div>
+</section>
+</div>
+</article>
+</section>
+
+
+<footer class="footer dark-content" style="">
+<div class="bg-overlay">
+</div>
+<div class="footer-sidebar">
+<div class="container">
+<div class="row">
+<div class="col-md-3">
+<div id="text-10" class="widget footer-widget widget_text"> <div class="textwidget"><div class="qac-footer">
+<h2>Head Office:</h2>
+<p>4711 Yonge Street, Suite 1500<br>
+Toronto, Ontario, M2N 7E4<br>
+Phone: <a href="tel:416-238-5333">(416) 238-5333</a><br>
+<a href="mailto:info@qaconsultants.com">info@qaconsultants.com</a></p>
+<p>© 2021 QA Consultants Inc.<br>
+All Rights Reserved</p>
+</div>
+</div>
+</div> </div>
+<div class="col-md-3">
+<div id="text-12" class="widget footer-widget widget_text"> <div class="textwidget"><div class="qac-footer">
+<h2>Quick links:</h2>
+<ul>
+<li><a href="https://qaconsultants.com/solutions-and-services/">Solutions + Services</a></li>
+<li><a href="https://qaconsultants.com/industries/">Industries</a></li>
+<li><a href="https://qaconsultants.com/client-success/">Client Success</a></li>
+<li><a href="https://qaconsultants.com/category/blog/">Blog</a></li>
+</ul>
+</div>
+</div>
+</div> </div>
+<div class="col-md-3">
+<div id="text-13" class="widget footer-widget widget_text"> <div class="textwidget"><div class="qac-footer">
+<h2>Social:</h2>
+<ul class="hr">
+<li><a href="https://www.linkedin.com/company/qa-consultants"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="LinkedIn" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-linkedIn.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-linkedIn.svg" alt="LinkedIn" /></noscript></a></li>
+<li><a href="https://www.youtube.com/channel/UCYMLlhNejUkxlXyfwxPT5Dg"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Youtube" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-youtube.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-youtube.svg" alt="Youtube" /></noscript></a></li>
+<li><a href="https://twitter.com/qactesters"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Twitter" data-lazy-src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-twitter.svg"><noscript><img src="https://qaconsultants.com/wp-content/uploads/2021/01/footer-twitter.svg" alt="Twitter" /></noscript></a></li>
+</ul>
+</div>
+</div>
+</div> </div>
+<div class="col-md-3">
+<div id="text-11" class="widget footer-widget widget_text"> <div class="textwidget"><div class="qac-footer">
+<h2>Get to know QA Consultants:</h2>
+<ul>
+<li><a href="https://qaconsultants.com/contact-us/">Contact Us</a></li>
+<li><a href="https://qaconsultants.com/about-us/">About Us</a></li>
+<li><a href="https://qaconsultants.com/about-us/accessibility/">Accessibility Statement</a></li>
+</ul>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+<div class="bottom-bar dark-content" style=" background: rgba(0,0,0,0.2);">
+<div class="container">
+<div class="row">
+<div class="col-md-6 bottom-bar-content">
+<div class="footer-left"></div>
+</div>
+<div class="col-md-6 bottom-bar-content">
+<div class="footer-right"></div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="scrolltotop">
+<i class="fa fa-chevron-up"></i>
+</div>
+
+
+<link data-minify="1" rel="stylesheet" href="https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/slick-dcf4fcc046695e0cf783beebfcca505f.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all">
+<link data-minify="1" rel="stylesheet" href="https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/slick-theme-c3bfe8c355ae1f52feb495c93732e195.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all">
+<link rel="stylesheet" href="https://qaconsultants.com/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/ihover.min.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all">
+<link data-minify="1" rel="stylesheet" href="https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes-2bcb4dceac6d1262785beb01d4743553.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" type="text/css" media="all">
+<script type="text/javascript" async="" defer="" id="hs-script-loader" src="https://js.hs-scripts.com/2470523.js?integration=WordPress"></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="text/javascript" id="rocket-delay-js-js-after">
+(function() {
+"use strict";var e=function(){function n(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(e,t,r){return t&&n(e.prototype,t),r&&n(e,r),e}}();function n(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function r(e,t){n(this,r),this.attrName="data-rocketlazyloadscript",this.browser=t,this.options=this.browser.options,this.triggerEvents=e,this.userEventListener=this.triggerListener.bind(this)}return e(r,[{key:"init",value:function(){this._addEventListener(this)}},{key:"reset",value:function(){this._removeEventListener(this)}},{key:"_addEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.addEventListener(e,t.userEventListener,t.options)})}},{key:"_removeEventListener",value:function(t){this.triggerEvents.forEach(function(e){return window.removeEventListener(e,t.userEventListener,t.options)})}},{key:"_loadScriptSrc",value:function(){var r=this,e=document.querySelectorAll("script["+this.attrName+"]");0!==e.length&&Array.prototype.slice.call(e).forEach(function(e){var t=e.getAttribute(r.attrName);e.setAttribute("src",t),e.removeAttribute(r.attrName)}),this.reset()}},{key:"triggerListener",value:function(){this._loadScriptSrc(),this._removeEventListener(this)}}],[{key:"run",value:function(){RocketBrowserCompatibilityChecker&&new r(["keydown","mouseover","touchmove","touchstart"],new RocketBrowserCompatibilityChecker({passive:!0})).init()}}]),r}();t.run();
+}());
+</script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async="" src="https://qaconsultants.com/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js"></script>
+<script>"use strict";var wprRemoveCPCSS=function wprRemoveCPCSS(){var elem;document.querySelector('link[data-rocket-async="style"][rel="preload"]')?setTimeout(wprRemoveCPCSS,200):(elem=document.getElementById("rocket-critical-css"))&&"remove"in elem&&elem.remove()};window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script src="https://qaconsultants.com/wp-content/cache/min/1/890dccfbf4bca59c7a0dbdee715f9dc3.js" data-minify="1" defer=""></script><noscript><link rel='stylesheet' id='wp-block-library-css'  href='https://qaconsultants.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='pgafu-public-style-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/post-grid-and-filter-qac/assets/css/pgafu-public-e42b9c4ea4eed96f0e3ef6d78800bc30.css' type='text/css' media='all' /><link rel='stylesheet' id='codemirror-blocks--css'  href='https://qaconsultants.com/wp-content/plugins/wp-codemirror-block/assets/blocks/blocks.style.build.min.css' type='text/css' media='all' /><link rel='stylesheet' id='exactmetrics-popular-posts-style-css'  href='https://qaconsultants.com/wp-content/plugins/google-analytics-dashboard-for-wp/assets/css/frontend.min.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='megamenu-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/uploads/maxmegamenu/style-82bc1dfc6a4788dbe72a3f0dc836bf61.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='dashicons-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-includes/css/dashicons.min-689a188ab44019c541455803d6c58417.css' type='text/css' media='all' /><link rel='stylesheet' id='bootstrap-css'  href='https://qaconsultants.com/wp-content/themes/titaniumgrand-child/css/bootstrap.min.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='fontawesome-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titaniumgrand-child/css/font-awesome.min-9266db495369821f9fc38a51bfa76b66.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='picseel-icons-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titanium/css/picseel-icons-9598f9140a605558c1f394864ca49bb7.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='animate-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titanium/css/animate-0dc012e1c1136eb59fb087c5fd8b4daf.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='css_form-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titaniumgrand-child/css/css_form-cf1717c1c782a11725b70d274cbc5b74.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='style-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titaniumgrand-child/css/style-0e89aa5765857d3d3e05789de446d408.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='tmm-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/team-members/inc/css/tmm_style-5647c0b769a85fb94017eaacf9044291.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='ot-dynamic-dynamic_css_field-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/themes/titaniumgrand-child/dynamic-80eee95701ac611f1b092899f9b78ee9.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='slick-css-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/slick-dcf4fcc046695e0cf783beebfcca505f.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='slick-theme-css-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/slick-theme-c3bfe8c355ae1f52feb495c93732e195.css' type='text/css' media='all' /><link rel='stylesheet' id='ihover-css-css'  href='https://qaconsultants.com/wp-content/plugins/responsive-posts-carousel-qac/assets/front/css/ihover.min.css' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='su-shortcodes-css'  href='https://qaconsultants.com/wp-content/cache/min/1/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes-2bcb4dceac6d1262785beb01d4743553.css' type='text/css' media='all' /></noscript>
+
+  
+  <script type="text/javascript" id="">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://v2.listenloop.com/loop.bundle.js";a.setAttribute("ll-public-key","kP9-7p2SQ1sD9sEhfsYX");var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+<iframe owner="archetype" title="archetype" style="display: none; visibility: hidden;"></iframe><div id="hubspot-messages-iframe-container" class="widget-align-right" style="width: 100px; height: 96px;"><div class="shadow-container"></div><iframe src="https://app.hubspot.com/conversations-visitor/2470523/threads/utk/c241d051699b4bf8b9035f8283a7fa34?uuid=53a7a0b2a7504c87a75cb51b4671e953&amp;mobile=false&amp;mobileSafari=false&amp;hideWelcomeMessage=false&amp;hstc=null&amp;domain=qaconsultants.com&amp;inApp53=false&amp;messagesUtk=c241d051699b4bf8b9035f8283a7fa34&amp;url=https%3A%2F%2Fqaconsultants.com%2F&amp;inline=false&amp;isFullscreen=false&amp;globalCookieOptOut=null&amp;isFirstVisitorSession=true&amp;isAttachmentDisabled=false&amp;enableWidgetCookieBanner=false&amp;isInCMS=false" title="chat widget"></iframe></div><img src="https://segment.prod.bidr.io/associate-segment?buzz_key=listenloop&amp;segment_key=listenloop-17920&amp;value=" height="0" width="0" style="display: none;">
