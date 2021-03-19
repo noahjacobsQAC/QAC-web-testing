@@ -6,7 +6,7 @@ from src.gui.mainwindow.ui_main import Ui_MainWindow
 '''from src.gui.dashboardwidget.dashboard import DashboardWidget
 from src.gui.scrapwidget.scrap import ScrapWidget
 from src.gui.viewwidget.view import ViewWidget'''
-from src.gui.testwidget.test import TestWidget
+from src.gui.testwidget.testui import TestWidget
 import os
 
 
