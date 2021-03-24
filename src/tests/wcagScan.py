@@ -40,7 +40,8 @@ class wcagScan(QThread):
         self.configuration = configuration
         self.driver = driver
         self.subSystemDatabase = WACDatabase("sqlite/database.db")
-        
+        self.numxpath = 4
+        print(self.targetDevice)
         
 
     
@@ -133,7 +134,7 @@ class wcagScan(QThread):
                 completed+=1
                 if completed == 1:
                     self.signalConsole.emit(f"First Element scanned of {total} elements.")
-                if completed%(int(len(paths)/5)) == 0:
+                if completed%(int(len(paths)/20)) == 0:
                     perc = int((completed/len(paths))*100)
                     self.signalConsole.emit(f'Completed scan of {completed}/{total} elements. {perc}%')
                     #print('before')
@@ -171,23 +172,37 @@ class wcagScan(QThread):
         self.subsystem.openWebElement(self.url, str(xPath))
 
 
-    def output(self, scanID):
+    def output(self, scanID, filename):
         errors = []
+        print(scanID)
+        #self.subSystemDatabase2 = WACDatabase("sqlite/database.db")
         data = self.subSystemDatabase.getSiteErrors('elements', scanID)
-        '''for item in data:
+        #print(data[0:200])
+        for item in data:
+            #print(item[self.numxpath])
             add = False
+            ers = []
+            
+            ers.append(item[3])
+            ers.append(item[4])
+            ers.append(item[2])
+            
             for i in range(60):
-                print(f'item: {item[i + 30]} i = {i}')
-                if len(item[i + 30]) > 2:
-                    add = True
+                #print(f'item: {item[i + 31]} i = {i}')
+                if item[i + 30] != None:
+                    
+                    if len(item[i + 30]) > 2:
+                        ers.append(f"Rule {i}, {item[i + 30]}")
+                        print(item[i + 30])
+                        add = True
             if add:
-                errors.append(item)'''
+                print(f"{item[0:4]} +    {ers}")
+                errors.append(ers)
 
-
-
-        self.ws = Xlsx('errors.xlsx', "Sheet1")
-        for x in data:
+        print(f"errors: {errors[0:10]}")
+        self.ws = Xlsx(filename + '_errors.xlsx', "Sheet1")
+        for x in errors:
             self.ws.addRows(x)
         
-        self.ws.set_col_widths(80)
+        self.ws.set_col_widths_errors(100)
         self.ws.saveWorkbook()

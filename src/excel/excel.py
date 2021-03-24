@@ -44,7 +44,20 @@ class Xlsx:
         self.sheet.column_dimensions["C"].width = 60
         self.sheet.column_dimensions["D"].width = 60
         self.sheet.column_dimensions["E"].width = 60'''
-        self.sheet.set_column(0,5, width)
+        self.sheet.set_column(0,10, width)
+        '''for i in range(self.row):
+            self.sheet.set_row(i + 1, 30)'''
+
+    def set_col_widths_errors(self, width):
+        '''self.sheet.column_dimensions["A"].width = 60
+        self.sheet.column_dimensions["B"].width = 60
+        self.sheet.column_dimensions["C"].width = 60
+        self.sheet.column_dimensions["D"].width = 60
+        self.sheet.column_dimensions["E"].width = 60'''
+        self.sheet.set_column(2,2, width/3)
+        self.sheet.set_column(1,1, width)
+        self.sheet.set_column(0,0, width/2)
+        self.sheet.set_column(3,10, width)
         '''for i in range(self.row):
             self.sheet.set_row(i + 1, 30)'''
 

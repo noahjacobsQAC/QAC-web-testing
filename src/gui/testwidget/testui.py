@@ -45,9 +45,9 @@ class TestWidget(QWidget):
         self.ui.setupUi(self)
 
         #https://www.bmo.com/main/personal/bank-accounts/chequing-accounts/
-        self.ui.le_url.setText("https://qaconsultants.com/")
-        self.ui.le_url.setText("https://www.bmo.com/main/personal")
-        self.ui.le_filename.setText("bmo")
+        #self.ui.le_url.setText("https://qaconsultants.com/")
+        #self.ui.le_url.setText("https://www.bmo.com/main/personal")
+        #self.ui.le_filename.setText("bmo")
 
         self.ui.btn_runTest.clicked.connect(self.runTest)
         self.ui.btn_openElem.clicked.connect(self.openElem)
@@ -81,6 +81,7 @@ class TestWidget(QWidget):
     def runTest(self):
         filename = self.ui.le_filename.text()
         url = self.ui.le_url.text()
+        scanID = self.ui.le_scanID.text()
         '''if self.ui.rd_wcag12.isChecked():
             self.test = test_wcag12(url, "Chrome", "",  {'headless':True})
             self.test.test(filename)
@@ -93,10 +94,14 @@ class TestWidget(QWidget):
 
         self.thread = QThread()
 
-        self.test = test_bmo(url, filename)
+        self.test = test_bmo(url, scanID)
         #self.test.moveToThread(self.thread)
         self.test.signalConsole.connect(self.updateConsole)
-        self.test.start()
+        
+        try:
+            self.test.start()
+        except:
+            self.updateConsole("Error scanning site, please see log file.")
         return True
         
 
@@ -109,7 +114,10 @@ class TestWidget(QWidget):
         self.scan = test_scan(url, filename, "Chrome", headers, "",  {'headless':True})
         self.scan.scanSignal.connect(self.updateScanID)
         self.scan.signalConsole.connect(self.updateConsole)
-        self.scan.start()
+        try:
+            self.scan.start()
+        except:
+            self.updateConsole("Error scanning site, please see log file.")
         return True
 
     def runMapping(self):
@@ -118,21 +126,27 @@ class TestWidget(QWidget):
         filename = self.ui.le_filename.text()
         self.map = test_map(url, filename, "Chrome", "",  {'headless':True}) 
         self.map.signalConsole.connect(self.updateConsole)
-        
-        self.map.start() 
+        try:
+            self.map.start() 
+        except:
+            self.updateConsole("Error mapping site, please see log file.")
         return True
 
     def outputSite(self):
         url = self.ui.le_url.text()
         filename = self.ui.le_filename.text()
-        self.scan = test_scan(url, filename, "Chrome", "",  {'headless':False})
-        self.scan.output(scanID=filename)
+        scanID = self.ui.le_scanID.text()
+        self.scan = test_scan(url, filename, "Chrome", "",  {'headless':True})
+        try:
+            self.scan.output(scanID, filename)
+        except:
+            self.updateConsole(f"Error Exporting csv.  It may be because it is open elsewhere.  Scan ID to export: {scanID}")
     
     def openElem(self):
         
         url = self.ui.le_url.text()
         filename = self.ui.le_filename.text()
-        self.scan = test_scan(url, filename, "Chrome", "",  {'headless':False})
+        self.scan = test_scan(url, filename, "Chrome", True, "",  {'headless':False})
         url = self.ui.le_url.text()
         try:
             webid = self.ui.le_elemID.text()

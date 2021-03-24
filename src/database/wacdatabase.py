@@ -302,13 +302,29 @@ class WACDatabase(Database):
         else:
             return ret
 
-
-    def getSiteErrors(self, table, scanID):
+    def getSiteErrors2(self, table, scanID):
         query = f"SELECT scanID, elemID, Type, url, xPath, alt, ariacurrent, ariadescribedby, ariahidden, arialabel, ariarequired, class, id, name, role, src, tabindex, target, title, href, text, typeid, scope, imgText, imgIcon, srcset, lang, innerHTML, fontSize FROM {table} WHERE scanID = '{scanID}'"
         query = 'SELECT scanID, elemID, Type, url, xPath,'
         for i in range(30):
             query = query + f'Rule {i + 1}, '
         query = query[0:len(query)-2] + " FROM {table} WHERE scanID = '{scanID}'"
+
+        #print(query)
+        query = f"Select * FROM {table} WHERE scanID = '{scanID}'"
+        
+        flag, ret = self.execQuery(query)
+        #print(ret)
+        if not flag:
+            return False
+        else:
+            return ret
+
+    def getSiteErrors(self, table, scanID):
+        #query = f"SELECT * FROM {table} WHERE scanID = '{scanID}'"
+        #query = 'SELECT scanID, elemID, Type, url, xPath,'
+        #for i in range(30):
+        #    query = query + f'Rule {i + 1}, '
+        #query = query[0:len(query)-2] + " FROM {table} WHERE scanID = '{scanID}'"
 
         #print(query)
         query = f"Select * FROM {table} WHERE scanID = '{scanID}'"

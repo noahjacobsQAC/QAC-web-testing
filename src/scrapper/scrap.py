@@ -29,6 +29,10 @@ import shutil
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 #from fuzzywuzzy import fuzz
+import cv2
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 import logging
 import inspect
@@ -973,7 +977,7 @@ class Scrap(Driver):
             imgutils.scroll_to_Coordinate_Y(self.driver, y)
         imgutils.highlight_element(self.driver, item,"red", 3)
 
-        print(item.getroottree().getpath(item))
+        #print(item.getroottree().getpath(item))
 
         print("openElem done")
     
@@ -993,7 +997,8 @@ class Scrap(Driver):
         elem = 0
         ats = {'type': "", 'nonText': "False", 'decorative': "False" , 'class': "", 'name': '', 'id': "", 'alt': '', 'aria-label': '', 'src': '',
                'parent': '', 'children': '', 'role': "", 'aria-required': '', 'aria-describedby': '', 'tabindex': "", 'aria-current': '', 'aria-hidden': '', 
-               'target': '', 'title': '', 'href': '', 'text': '', 'type id': '', 'scope': '', 'imgText': '', 'data-src': '', 'imgTable': '', 'imgIcon': '', 'srcset': '', 'lang': '', 'innerHTML': '', 'fontSize': ''}
+               'target': '', 'title': '', 'href': '', 'text': '', 'type id': '', 'scope': '', 'imgText': '', 'data-src': '', 'imgTable': '', 'imgIcon': '', 
+               'srcset': '', 'lang': '', 'innerHTML': '', 'fontSize': ''}
         
         if 'svg' in xPath and not 'path' in xPath:
             if not "None" in xPath:
@@ -1112,10 +1117,14 @@ class Scrap(Driver):
         #time.sleep(3)
         pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
         try:
+            ats['imgTable'] = str(self.isTable('img.png'))
+        except:
+            ats['imgTable'] = 'False'
+        try:
             text = pytesseract.image_to_string(filePath + 'img.png')
         except:
             text = ""
-        shutil.copyfile(filePath + "img.png", filePath + ats['alt'].replace(' ', "").replace('.', '').replace('\\', '') + "img.png")
+        #shutil.copyfile(filePath + "img.png", filePath + ats['alt'].replace(' ', "").replace('.', '').replace('\\', '') + "img.png")
         print(f'text: {text}')
         try:
             os.remove(filePath + "img.png")
@@ -1123,11 +1132,138 @@ class Scrap(Driver):
             pass
         #check for table
         ats['imgText'] = text
-        ats['imgTable'] = False
-        ats['imgIcon'] = False
+        if 'icon' in ats['class']:
+            ats['imgIcon'] = True
+        else:
+            ats['imgIcon'] = False
         return ats
 
+    def isTable(self,img):
+        filePath = r'.\\temp\\'
+        #read your file
+        file=f"{filePath}/{img}"
+        #file=f"{filePath}/oldImg.jpg"
+        #file=f"{filePath}/smallbox.png"
+        #file=f"{filePath}/nottable3.png"
+       # file=f"{filePath}/table5.png"
+        #incorrect??? file=f"{filePath}/elements.jpg"
+        # incorrect file=f"{filePath}/index.png"  
+        #file=f"{filePath}/table4.png"
 
+        try:
+            img = cv2.imread(file,0)
+            img.shape
+
+            #thresholding the image to a binary image
+            thresh,img_bin = cv2.threshold(img,128,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+
+            #inverting the image 
+            img_bin = 255-img_bin
+            cv2.imwrite(f'{filePath}/table_inverted.png',img_bin)
+            #Plotting the image to see the output
+            plotting = plt.imshow(img_bin,cmap='gray')
+            #plt.show()
+
+            # countcol(width) of kernel as 100th of total width
+            kernel_len = np.array(img).shape[1]//100
+            # Defining a vertical kernel to detect all vertical lines of image 
+            ver_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_len))
+            # Defining a horizontal kernel to detect all horizontal lines of image
+            hor_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (kernel_len, 1))
+            # A kernel of 2x2
+            kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+
+            #Use vertical kernel to detect and save the vertical lines in a jpg
+            image_1 = cv2.erode(img_bin, ver_kernel, iterations=3)
+            vertical_lines = cv2.dilate(image_1, ver_kernel, iterations=3)
+            cv2.imwrite(f'{filePath}/table_vertical.jpg',vertical_lines)
+            #Plot the generated image
+            plotting = plt.imshow(image_1,cmap='gray')
+            #plt.show()
+
+            #Use horizontal kernel to detect and save the horizontal lines in a jpg
+            image_2 = cv2.erode(img_bin, hor_kernel, iterations=3)
+            horizontal_lines = cv2.dilate(image_2, hor_kernel, iterations=3)
+            cv2.imwrite(f'{filePath}/table_horizontal.jpg',horizontal_lines)
+            #Plot the generated image
+            plotting = plt.imshow(image_2,cmap='gray')
+            #plt.show()
+
+            # Combine horizontal and vertical lines in a new third image, with both having same weight.
+            img_vh = cv2.addWeighted(vertical_lines, 0.5, horizontal_lines, 0.5, 0.0)
+            #Eroding and thesholding the image
+            img_vh = cv2.erode(~img_vh, kernel, iterations=2)
+            thresh, img_vh = cv2.threshold(img_vh,128,255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+            cv2.imwrite(f'{filePath}/table_img_vh.jpg', img_vh)
+            bitxor = cv2.bitwise_xor(img,img_vh)
+            bitnot = cv2.bitwise_not(bitxor)
+            #Plotting the generated image
+            plotting = plt.imshow(bitnot,cmap='gray')
+            #plt.show()
+
+            # Detect contours for following box detection
+            contours, hierarchy = cv2.findContours(img_vh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+            def sort_contours(cnts, method="left-to-right"):
+                # initialize the reverse flag and sort index
+                reverse = False
+                i = 0
+                # handle if we need to sort in reverse
+                if method == "right-to-left" or method == "bottom-to-top":
+                    reverse = True
+                # handle if we are sorting against the y-coordinate rather than
+                # the x-coordinate of the bounding box
+                if method == "top-to-bottom" or method == "bottom-to-top":
+                    i = 1
+                # construct the list of bounding boxes and sort them from top to
+                # bottom
+                boundingBoxes = [cv2.boundingRect(c) for c in cnts]
+                (cnts, boundingBoxes) = zip(*sorted(zip(cnts, boundingBoxes),
+                key=lambda b:b[1][i], reverse=reverse))
+                # return the list of sorted contours and bounding boxes
+                return (cnts, boundingBoxes)
+
+            # Sort all the contours by top to bottom.
+            contours, boundingBoxes = sort_contours(contours, method="top-to-bottom")
+
+            #Creating a list of heights for all detected boxes
+            heights = [boundingBoxes[i][3] for i in range(len(boundingBoxes))]
+            #print(boundingBoxes)
+
+            #Get mean of heights
+            mean = np.mean(heights)
+
+            #Create list box to store all boxes in  
+            box = []
+            # Get position (x,y), width and height for every contour and show the contour on image
+            lengths = [1]
+            countourCount = 0
+            for c in contours:
+                countourCount+=1
+                #print(c)
+                le = len(c)
+                #print(le)
+                if not (le in lengths):
+                    lengths.append(le)
+                x, y, w, h = cv2.boundingRect(c)
+                if (w<1000 and h<500):
+                    image = cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
+                    box.append([x,y,w,h])
+            #print(lengths)
+            plotting = plt.imshow(image,cmap='gray')
+            #plt.show()
+            power = pow(int(len(lengths)*0.75), 2)
+            #print(f'table {len(lengths)}  {countourCount}  {power}')
+            #print(int(50*0.75)^2)
+            if power < countourCount and countourCount > 12: #and len(lengths) < 100:
+                #print(f'is a table {len(lengths)}  {countourCount}')
+                return True
+            else:
+                #print(f'is not a table {len(lengths)}  {countourCount/3}')
+                return False
+        except Exception as e:
+            print(f'{e}')
+            return False
     def loadXPaths(self, filename):
         f = open(filename + ".txt", "r")
         self.paths = []

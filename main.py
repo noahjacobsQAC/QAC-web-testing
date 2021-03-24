@@ -21,6 +21,17 @@ import textdistance
 import speech_recognition as sr
 from os import path
 from pydub import AudioSegment
+
+
+import cv2
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import csv
+
+from PIL import Image
+
+import pytesseract
 class main():
     def convertToBinaryData(self,filename):
         #Convert digital data to binary format
@@ -34,57 +45,154 @@ class main():
             file.write(data)
 
 
+    def length(img):
+        pass
+
+    def getLengths(img):
+        for y in img:
+            for x in y:
+                pass
+
     def main(self, args):
-        
-        opener = urllib.request.URLopener()
-        opener.addheader('User-Agent', "Mozilla/5.0")
-        src = "https://www.bmo.com/dist/images/personal/bank-accounts/familybundle-meganav-300x250-en.jpg"
-        srg = "https://bmo.com/dist/images/personal/bank-accounts/familybundle-meganav-300x250-en.jpg"
+        print("in main")
+
+    def isTable(self,img):
         filePath = r'.\\temp\\'
-        filename, headers = opener.retrieve(src, filePath + "img.png")
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
-        text = pytesseract.image_to_string(filePath + 'img.png')
-        print(text)
-        '''xPath = "html/div/div/audio"
-        short = xPath
-        while True:
-            #print(short)
-            try:
-                x = short.index('/')
-            except:
-                x = -1
-            if x >= 1:
-                short = short[x+1:]
+        #read your file
+        file=f"{filePath}/{img}"
+        #file=f"{filePath}/oldImg.jpg"
+        #file=f"{filePath}/smallbox.png"
+        #file=f"{filePath}/nottable3.png"
+       # file=f"{filePath}/table5.png"
+        #incorrect??? file=f"{filePath}/elements.jpg"
+        # incorrect file=f"{filePath}/index.png"  
+        #file=f"{filePath}/table4.png"
+
+        try:
+            img = cv2.imread(file,0)
+            img.shape
+
+            #thresholding the image to a binary image
+            thresh,img_bin = cv2.threshold(img,128,255,cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+
+            #inverting the image 
+            img_bin = 255-img_bin
+            cv2.imwrite(f'{filePath}/table_inverted.png',img_bin)
+            #Plotting the image to see the output
+            plotting = plt.imshow(img_bin,cmap='gray')
+            plt.show()
+
+            # countcol(width) of kernel as 100th of total width
+            kernel_len = np.array(img).shape[1]//100
+            # Defining a vertical kernel to detect all vertical lines of image 
+            ver_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, kernel_len))
+            # Defining a horizontal kernel to detect all horizontal lines of image
+            hor_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (kernel_len, 1))
+            # A kernel of 2x2
+            kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (2, 2))
+
+            #Use vertical kernel to detect and save the vertical lines in a jpg
+            image_1 = cv2.erode(img_bin, ver_kernel, iterations=3)
+            vertical_lines = cv2.dilate(image_1, ver_kernel, iterations=3)
+            cv2.imwrite(f'{filePath}/table_vertical.jpg',vertical_lines)
+            #Plot the generated image
+            plotting = plt.imshow(image_1,cmap='gray')
+            #plt.show()
+
+            #Use horizontal kernel to detect and save the horizontal lines in a jpg
+            image_2 = cv2.erode(img_bin, hor_kernel, iterations=3)
+            horizontal_lines = cv2.dilate(image_2, hor_kernel, iterations=3)
+            cv2.imwrite(f'{filePath}/table_horizontal.jpg',horizontal_lines)
+            #Plot the generated image
+            plotting = plt.imshow(image_2,cmap='gray')
+            #plt.show()
+
+            # Combine horizontal and vertical lines in a new third image, with both having same weight.
+            img_vh = cv2.addWeighted(vertical_lines, 0.5, horizontal_lines, 0.5, 0.0)
+            #Eroding and thesholding the image
+            img_vh = cv2.erode(~img_vh, kernel, iterations=2)
+            thresh, img_vh = cv2.threshold(img_vh,128,255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+            cv2.imwrite(f'{filePath}/table_img_vh.jpg', img_vh)
+            bitxor = cv2.bitwise_xor(img,img_vh)
+            bitnot = cv2.bitwise_not(bitxor)
+            #Plotting the generated image
+            plotting = plt.imshow(bitnot,cmap='gray')
+            #plt.show()
+
+            # Detect contours for following box detection
+            contours, hierarchy = cv2.findContours(img_vh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+
+            def sort_contours(cnts, method="left-to-right"):
+                # initialize the reverse flag and sort index
+                reverse = False
+                i = 0
+                # handle if we need to sort in reverse
+                if method == "right-to-left" or method == "bottom-to-top":
+                    reverse = True
+                # handle if we are sorting against the y-coordinate rather than
+                # the x-coordinate of the bounding box
+                if method == "top-to-bottom" or method == "bottom-to-top":
+                    i = 1
+                # construct the list of bounding boxes and sort them from top to
+                # bottom
+                boundingBoxes = [cv2.boundingRect(c) for c in cnts]
+                (cnts, boundingBoxes) = zip(*sorted(zip(cnts, boundingBoxes),
+                key=lambda b:b[1][i], reverse=reverse))
+                # return the list of sorted contours and bounding boxes
+                return (cnts, boundingBoxes)
+
+            # Sort all the contours by top to bottom.
+            contours, boundingBoxes = sort_contours(contours, method="top-to-bottom")
+
+            #Creating a list of heights for all detected boxes
+            heights = [boundingBoxes[i][3] for i in range(len(boundingBoxes))]
+            #print(boundingBoxes)
+
+            #Get mean of heights
+            mean = np.mean(heights)
+
+            #Create list box to store all boxes in  
+            box = []
+            # Get position (x,y), width and height for every contour and show the contour on image
+            lengths = [1]
+            countourCount = 0
+            for c in contours:
+                countourCount+=1
+                #print(c)
+                le = len(c)
+                #print(le)
+                if not (le in lengths):
+                    lengths.append(le)
+                x, y, w, h = cv2.boundingRect(c)
+                if (w<1000 and h<500):
+                    image = cv2.rectangle(img,(x,y),(x+w,y+h),(0,255,0),2)
+                    box.append([x,y,w,h])
+            #print(lengths)
+            plotting = plt.imshow(image,cmap='gray')
+            #plt.show()
+            power = pow(int(len(lengths)*0.75), 2)
+            #print(f'table {len(lengths)}  {countourCount}  {power}')
+            #print(int(50*0.75)^2)
+            if power < countourCount and countourCount > 12: #and len(lengths) < 100:
+                #print(f'is a table {len(lengths)}  {countourCount}')
+                return True
             else:
-                break
-        print(xPath[0:len(xPath)-len(short)])'''
-        '''filePath = r'.\\temp\\'
-        opener = urllib.request.URLopener()
-        opener.addheader('User-Agent', "whatevers")
-        opener.retrieve("https://audio.clyp.it/ofnzhdem.mp3?Expires=1613586576&Signature=DVBLrnMtV45yL5sIZegppbWxh9u~8UDErq6Sm-oIPzkPEQxT62hObf~b5Yvpz9VHSN9mqe7JM7qnLxGMxqQaXgwqKdNrUjzDU~ajOsHDAlUOeyILLqP-9NdFfj7Pnk~j5m5R3-9Ea2eRkUgbz4~WFK0X5R1XIHYulseqbtNXCeM_&Key-Pair-Id=APKAJ4AMQB3XYIRCZ5PA", "thing2.mp3")
-        #print(filePath + "thing.mp3")
-        sound = AudioSegment.from_wav(filePath + "thing.wav")
-        sound.export(filePath +"transcript.wav", format="wav")
-            '''
-        '''print(textdistance.jaro_winkler('Search', 's'))
-        filePath = r'.\\temp\\' 
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
-        custom_config = r'--oem 3 --psm 11'''
-        #custom_config = r'-c tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyz --psm 6'
-        #print(pytesseract.image_to_string(filePath + 'img.png', config=custom_config))
-        #dwebp(filePath + "accessibility-testing-in-the-new-age-of-web-pages.webp", r'.\\temp\\' + "img.png", "-o")
-        '''#filename, headers = opener.retrieve(src, filePath)
-        dwebp(filePath + "oldimg.webp", r'.\\temp\\' + "img.png", "-o")
-        print("Converted webp")
-        data = self.convertToBinaryData(filePath + "img.png")
-        self.writeTofile(data, filePath + "newImg.png")
+                #print(f'is not a table {len(lengths)}  {countourCount/3}')
+                return False
+        except Exception as e:
+            print(f'{e}')
+            return False
+
+        
 
 
+
+
+        '''
         im = svg2rlg(filePath + "qac.svg")
         renderPM.drawToFile(im, filePath + "qac-img.png", fmt="PNG")
         print("Converted svg")
-'''
-        '''filePath = r'.\\temp\\' + "displayed_screenshot.jpg"
+        filePath = r'.\\temp\\' + "displayed_screenshot.jpg"
         pixmap = QPixmap(filePath).scaled(500,500, QtCore.Qt.KeepAspectRatio)
         filePath = r'.\\temp\\' + ""
         #urllib.request.urlretrieve("https://qaconsultants.com/wp-content/uploads/2020/12/em-7-xcog.webp", filePath + "old.webp")
@@ -121,5 +229,21 @@ class main():
             print(f"external {external}")
             print("##################")'''
 
+        print('done')
+
 a = main()
-a.main([1])
+tables = ['bloom.png','table.png', 'table2.png', 'table3.png', 'table4.png', 'table5.png']
+notTables = ['New-queensu-sign-Aug31-2015-02-600.jpg', 'smallbox.png', 'oldImg.jpg', 'nottable.png', 'nottable2.png','nottable3.png']
+#print(a.isTable('table.png'))
+for item in tables:
+    x = a.isTable(item)
+    if not x:
+        print(f'Yes: {x} + {item}')
+    else:
+        print(f'Yes: {x}')
+for item in notTables:
+    x = a.isTable(item)
+    if x:
+        print(f'No: {x} + {item}')
+    else:
+        print(f'No: {x}')

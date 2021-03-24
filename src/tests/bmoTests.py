@@ -92,6 +92,8 @@ class BMOTests(QThread):
        
 
     def run(self):
+        data = self.subSystemDatabase.getSiteData('elements', self.scanID)
+        print(f"Size of scan: {len(data)}")
         self.linkTest()
         self.formTest()
         self.headingTests()
@@ -209,6 +211,7 @@ class BMOTests(QThread):
                 
         # Rule 41
         # - check for repetitivness that should be in lists?
+        
 
         # Rule 42
         # - "All navigations" checking links or context?
@@ -253,7 +256,7 @@ class BMOTests(QThread):
                 elem = item
 
         if trigger:
-            self.subSystemDatabase.addNotesToSite("elements", "Rule 48", elem[self.numxpath], " HTML is structured using semantic layout ", self.scanID)
+            self.subSystemDatabase.addNotesToSite("elements", "Rule 48", '/html', " HTML is structured using semantic layout ", self.scanID)
 
         # Rule 55
         html = self.subSystemDatabase.getElemByXPath('elements', self.scanID, '/html')
@@ -299,21 +302,36 @@ class BMOTests(QThread):
     def imageTests(self):
         images = self.subSystemDatabase.getSiteTypeData("elements", self.scanID, "img")
         svgs = self.subSystemDatabase.getSiteTypeData("elements", self.scanID, "svg")
+        pictures = self.subSystemDatabase.getSiteTypeData("elements", self.scanID, "picture")
+        icons = self.subSystemDatabase.getElemByClassContains('elements', self.scanID, "icon")
         # Rule 12
         
 
 
 
-        # Rule 31
-
-
-        # Rule 32
+        
         
         if len(images) < 1:
             self.subSystemDatabase.addNotesToSite("elements", "Rule 32", '/html/body[1]', "For SEO purposes, any given page has at least one image with alt text, even if it is for a decorative one. 0 images were detected.", self.scanID)
         check = True
         
         for item in images:
+            text = item[self.numimgtext]
+            alt = item[self.numalt]
+            # Rule 30
+            if text != None:
+                if len(text) >= 2:
+                    if len(alt) <= (0.5*len(text)):
+                        self.subSystemDatabase.addNotesToSite("elements", "Rule 30", item[self.numxpath], "If image is informative, it has an informative alt attribute.", self.scanID)
+    
+            # Rule 31
+            if text == None or len(text) <= 2:
+                if alt != "":
+                    self.subSystemDatabase.addNotesToSite("elements", "Rule 31", item[self.numxpath], "If image is decorative, it has an alt="" attribute.", self.scanID)
+    
+
+            
+            # Rule 32
             if 'svg' in item[self.numsrc]:
                 svgs.append(item)
             arialabel = item[self.numarialabel]
@@ -331,7 +349,7 @@ class BMOTests(QThread):
             
             # Rule 35
             if 'icon' in item[self.numclass] and 'svg' not in item[self.numsrc]:
-                self.subSystemDatabase.addNotesToSite("elements", "Rule 33", item[self.numxpath], "For every icon, being either a standalone svg element or a .svg file placed in an img element is the best practice", self.scanID)
+                self.subSystemDatabase.addNotesToSite("elements", "Rule 35", item[self.numxpath], "For every icon, being either a standalone svg element or a .svg file placed in an img element is the best practice", self.scanID)
             
 
         # Rule 34
@@ -352,6 +370,19 @@ class BMOTests(QThread):
                 if item[self.numariahidden] != "true":
                     self.subSystemDatabase.addNotesToSite("elements", "Rule 37", item[self.numxpath], "Every chart image itself has either a general alt attribute or alt='' aria-hidden=true attributes", self.scanID)
     
+    
+
+        for item in icons:
+            text = item[self.numimgtext]
+            if text != None and len(text) >=3:
+                parentPath = item[self.numxpath][0:len(item[self.numxpath]) - len(item[self.numtype])]
+                parent = self.subSystemDatabase.getElemByXPath('elements', self.scanID, parentPath)
+                if 'show-for-sr' in parent[self.numclass]:
+                    self.subSystemDatabase.addNotesToSite("elements", "Rule 38", item[self.numxpath], "For icons, adding tooltip content is the best practice but is not mandatory", self.scanID)
+    
+            title = item[self.numtitle]
+            if title == None or title == "":
+                self.subSystemDatabase.addNotesToSite("elements", "Rule 36", item[self.numxpath], "If icon is informative, a descriptive element with class show-for-sr is added either before or after every entry.", self.scanID)
     
 
 
@@ -509,6 +540,7 @@ class BMOTests(QThread):
 
             for i in range(4):
                 parent = self.subSystemDatabase.getElemByXPath('elements', self.scanID, parentPath)
+                
                 if parent[self.numarialabel] == "Youtube Video Player":
                     isYoutTube = True
                 if parent[self.numid] == "player":
